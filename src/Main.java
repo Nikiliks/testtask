@@ -21,7 +21,7 @@ public class Main {
                 System.out.println("Не ожидал от тебя такого. Загаданное число меньше, брат");
             } else {
                 System.out.println("Поздравляю! Ты угадал число " + secretNumber + " за " + attempts + " попыток.");
-                break; // Выход из цикла
+                break; 
             }
         }
     }
